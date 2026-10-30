@@ -1,0 +1,9 @@
+name: callee
+on:
+  workflow_call:
+  workflow_dispatch:
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo CALLEE-RAN
